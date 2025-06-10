@@ -1,0 +1,216 @@
+.body{
+                margin: 0;
+                font-family: arial,sans-serif;
+            }
+            .header{
+                 text-decoration: color(white);
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            align-items: center;
+         }
+         .left,.right{
+            display: flex;
+            text-decoration: none;
+            gap: 20px;
+            .b{
+                background-color: orangered;
+                color: #000;
+                padding: 20px;
+                border-radius: 20px;
+            }
+         }
+         .center{
+            display: flex;
+            gap: 20px;
+         }
+         .contant{
+             justify-content: space-between;
+        max-width: 1000px;
+        flex-direction: row-reverse;
+        margin: 20px auto;
+        display: flex;
+        padding-top: 50px;
+         }
+
+        .right1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         }
+         .header2{
+            text-align: center;
+            align-items: center;
+            gap: 10px;
+         }
+         .header3{
+            text-decoration: color(white);
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            align-items: center;
+
+         }
+     .left,.right{
+            display: flex;
+            text-decoration: none;
+            gap: 20px;
+     }
+     .box{
+      height: 200px;
+      width: 700px;
+       text-align: center;
+      line-height: 150px;
+      color: rgba(0, 0, 0, 0.588);
+      font-size: 20px;
+      font-weight: bold;
+     }
+   .boxx {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  color: #333;
+}
+
+.chat-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+}
+
+.chat-message .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.chat-message .message {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+  max-width: 220px;
+  line-height: 1.4;
+}
+
+.blue .message {
+  background-color: #2a62c9;
+  color: #fff;
+}
+
+.orange .message {
+  background-color: #f78d1e;
+  color: #000;
+}
+
+.gray .message {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+.dots .message {
+  background-color: blue#0980ee;
+  color:black
+}
+
+.reply-box {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.reply-box input {
+  border: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.reply-box button {
+  background-color: #ddd;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+
+}
+  .body2{
+    margin: 0;
+    font-family:Georgia, serif;
+    background-color:#fff;
+    color: #000;
+    align-items: center;
+    text-align: center;
+  }
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 100px;
+}
+.left1{
+  flex: 1;
+}
+.left1 h1{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom:20px ;
+}
+.left1 p{
+color: #000000;
+}
+{.header4
+    
+            text-align: center;
+            align-items: center;
+            gap: 10px;
+              background-color: .orange
+}
+{
+    .header5
+    <section style="text-align: center; 
+    padding: 50px; 
+    background-color: #fef6f0;">
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(200, 200, 200);
+}
